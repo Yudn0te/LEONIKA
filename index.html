@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEONIKA — Торты на заказ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+   
+<header>
+    <div class="logo">LEONIKA ♡</div>
+
+    <!-- Кнопка мобильного меню -->
+    <button class="menu-toggle"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+            aria-controls="main-nav">
+        ☰
+    </button>
+
+    <nav id="main-nav">
+        <a href="#home">Главная</a>
+        <a href="#catalog">Торты</a>
+        <a href="#about">О нас</a>
+        <a href="#order">Заказать</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+</header>
+
+
+    <!-- Главная страница -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+            <p class="subtitle">ДОМАШНЯЯ КОНДИТЕРСКАЯ</p>
+
+            <h1>Торты, созданные<br>с любовью ♡</h1>
+
+            <p class="description">
+                Нежные домашние торты для ваших
+                самых счастливых моментов.
+            </p>
+
+            <a href="#catalog" class="btn">Выбрать тортик →</a>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85"
+                alt="Красивый домашний торт">
+        </div>
+
+    </section>
+
+<!-- КАТАЛОГ ТОРТОВ -->
+<section class="catalog" id="catalog">
+
+    <div class="catalog-title">
+        <p class="subtitle">НАШИ ДЕСЕРТЫ</p>
+        <h2>Наши тортики ♡</h2>
+        <p>Выберите сладость для особенного момента</p>
+    </div>
+
+    <div class="cake-grid">
+
+        <!-- ТОРТ 1 -->
+        <div class="cake-card">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85"
+                 alt="Шоколадный торт">
+
+            <div class="cake-info">
+                <h3>Шоколадное счастье</h3>
+                <p>Насыщенный шоколадный вкус</p>
+                <div class="cake-bottom">
+                    <span>от 10 000 ₸</span>
+                    <button class="order-btn" data-cake="Шоколадное счастье">
+                        Заказать →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ТОРТ 2 -->
+        <div class="cake-card">
+            <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=800&q=85"
+                 alt="Ягодный торт">
+
+            <div class="cake-info">
+                <h3>Ягодное облако</h3>
+                <p>Нежный крем и ягодный вкус</p>
+                <div class="cake-bottom">
+                    <span>от 8 000 ₸</span>
+                    <button class="order-btn" data-cake="Ягодное облако">
+                        Заказать →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ТОРТ 3 -->
+        <div class="cake-card">
+            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=85"
+                 alt="Шоколадный десерт">
+
+            <div class="cake-info">
+                <h3>Нежная мечта</h3>
+                <p>Воздушный крем и красивое оформление</p>
+                <div class="cake-bottom">
+                    <span>от 9 000 ₸</span>
+                    <button class="order-btn" data-cake="Нежная мечта">
+                        Заказать →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ТОРТ 4 -->
+        <div class="cake-card">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=85"
+                 alt="Небольшой десерт">
+
+            <div class="cake-info">
+                <h3>Бенто-тортик</h3>
+                <p>Маленький тортик для приятного сюрприза</p>
+                <div class="cake-bottom">
+                    <span>от 5 000 ₸</span>
+                    <button class="order-btn" data-cake="Бенто-тортик">
+                        Заказать →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- О НАС -->
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img
+            src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=1000&q=85"
+            alt="Домашний десерт">
+    </div>
+
+    <div class="about-text">
+        <p class="subtitle">СДЕЛАНО С ЛЮБОВЬЮ</p>
+
+        <h2>Немного о LEONIKA ♡</h2>
+
+        <p>
+            LEONIKA — домашняя кондитерская,
+            где каждый тортик создаётся с любовью
+            и вниманием к деталям.
+        </p>
+
+        <p>
+            Мы хотим, чтобы каждый праздник
+            становился ещё слаще и красивее.
+        </p>
+
+        <div class="about-features">
+            <span>♡ Индивидуальный подход</span>
+            <span>♡ Торты на заказ</span>
+            <span>♡ Красивое оформление</span>
+        </div>
+
+        <a href="#catalog" class="btn">Выбрать тортик →</a>
+    </div>
+
+</section>
+
+<!-- ФОРМА ЗАКАЗА -->
+<section class="order-section" id="order">
+
+    <p class="subtitle">СДЕЛАНО ДЛЯ ВАС</p>
+    <h2>Заказать тортик ♡</h2>
+    <p class="order-description">
+        Расскажите о тортике вашей мечты
+    </p>
+
+    <form id="cakeOrderForm">
+
+        <label for="cakeSelect">Выберите торт</label>
+        <select id="cakeSelect" required>
+            <option value="">Выберите тортик</option>
+            <option>Шоколадное счастье</option>
+            <option>Ягодное облако</option>
+            <option>Нежная мечта</option>
+            <option>Бенто-тортик</option>
+        </select>
+
+        <label for="cakeWeight">Вес торта</label>
+        <select id="cakeWeight" required>
+            <option value="">Выберите вес</option>
+            <option>1 кг</option>
+            <option>1.5 кг</option>
+            <option>2 кг</option>
+            <option>3 кг</option>
+        </select>
+
+        <label for="cakeDate">Дата, к которой нужен торт</label>
+        <input type="date" id="cakeDate" required>
+
+        <label for="cakeMessage">Ваши пожелания</label>
+        <textarea
+            id="cakeMessage"
+            placeholder="Например: розовый торт с надписью..."
+            rows="4"></textarea>
+
+        <button type="submit" class="btn">
+            Отправить заявку в WhatsApp →
+        </button>
+
+    </form>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section class="contacts" id="contacts">
+
+    <p class="subtitle">СВЯЖИТЕСЬ С НАМИ</p>
+
+    <h2>Закажем что-нибудь сладкое? ♡</h2>
+
+    <p>
+        Выберите любимый тортик и напишите нам
+        в WhatsApp, чтобы обсудить детали заказа.
+    </p>
+
+    <button class="btn contact-btn">
+        Написать в WhatsApp →
+    </button>
+
+</section>
+
+<!-- ПОДВАЛ -->
+<footer class="footer">
+    <div class="logo">LEONIKA ♡</div>
+    <p>Домашние торты с любовью</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
